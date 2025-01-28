@@ -2,7 +2,7 @@
 
 //노드 생성
 Node* DLL_CreateNode(ElementType NewData){
-    Node* NewNode = (Node*)malloc(sizeof(Node);
+    Node* NewNode = (Node*)malloc(sizeof(Node));
 
     NewNode->Data = NewData; //데이터를 저장한다
     NewNode->PrevNode = NULL; //이전 노드에 대한 포인터도 NULL로 초기화한다.

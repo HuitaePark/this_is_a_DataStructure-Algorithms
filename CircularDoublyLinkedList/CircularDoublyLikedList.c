@@ -1,8 +1,8 @@
-#include "CircularDoublyLinkedList.h"
+#include  "CircularDoublyLinkedList.h"
 
 //노드 생성
 Node* CDLL_CreateNode(ElementType NewData){
-    Node* NewNode = (Node*)malloc(sizeof(Node);
+    Node* NewNode = (Node*)malloc(sizeof(Node));
 
     NewNode->Data = NewData; //데이터를 저장한다
     NewNode->PrevNode = NULL; //이전 노드에 대한 포인터도 NULL로 초기화한다.
@@ -18,8 +18,8 @@ void CDLL_AppendNode(Node** Head, Node* NewNode){
     //해드 노드가 NULL이라면 새로운 노드가 Head가 된다.
     if((*Head) == NULL){
         *Head = NewNode;
-        (*Head)->NextMode = *Head;
-        (*Head)->PrevMode = *Head;
+        (*Head)->NextNode = *Head;
+        (*Head)->PrevNode = *Head;
     }
     else{
         //테일헤드 사이에 NewNode를 연결한다.
