@@ -10,7 +10,7 @@ typedef int ValueType;
 typedef struct tagNode
 {
     KeyType Key;
-    ValueType value;
+    ValueType Value;
 }Node;
 
 typedef struct tagHashTable
