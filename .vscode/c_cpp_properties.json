@@ -3,7 +3,9 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/LinkedList",
+                "${workspaceFolder}/Graph"
             ],
             "defines": [],
             "macFrameworkPath": [
