@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/LinkedList",
-                "${workspaceFolder}/Graph"
+                "${workspaceFolder}/Graph",
+                "${workspaceFolder}/PriorityQueue"
             ],
             "defines": [],
             "macFrameworkPath": [
